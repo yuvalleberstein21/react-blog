@@ -1,42 +1,28 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+#neubar {
+    background: #fae8d2;
+    box-shadow: 4px 6px 12px rgba(0,0,0,0.4)
   }
-  to {
-    transform: rotate(360deg);
+  
+  .nav-item .active {
+    border-radius: 6px;
+    background: linear-gradient(145deg, #ffe7ca, #f5d7b2);
+    box-shadow:  4px 4px 8px #ddc1a0,
+                 -4px -4px 8px #f7e5cc;
   }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  #neubar .dropdown-menu a:hover {
+    color: #454545
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
+  #neubar .nav-item {
+    margin : auto 4px;
+  }
+  #neubar a {
+  
+    padding-left:12px;
+    padding-right:12px;
+  }
+  #neubar .dropdown-menu {
+    background : #545454
+  }
+  a.navbar-brand {
+    color: #454545
+  }
